@@ -1,0 +1,16 @@
+// clase para extend
+.imagesnesext{
+    background-size: cover;
+    background-position-y: center;
+}
+
+// mapp
+$estilos:(
+    padin: 20px
+);
+
+// mixin
+@mixin tamanos($width, $height){
+    width: $width;
+    height: $height;
+}

@@ -1,0 +1,27 @@
+@import "./variables";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-max{
+    height: 50vh;
+}
+
+.hero-img{
+    @extend .imagesnesext;
+    background-image: url("../images/hero.jpg");
+}
+
+.hero-img2{
+    @extend .imagesnesext;
+    background-image: url("../images/hero2.jpg");
+}
+
+.hero-img3{
+    @extend .imagesnesext;
+    background-image: url("../images/hero3.jpg");
+}

@@ -1,0 +1,32 @@
+.nav-titulo{
+    position: absolute;
+    right: 2%;
+    color: #BABABA;
+    text-transform: uppercase;
+    top: 52%;
+
+    animation-name: tituloHero;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+.navBar{
+    width: 100%;
+    height: auto;
+    background-color: #1d1c1c;
+    border-bottom: solid 2px #BABABA;
+    display: flex;
+    grid-column: 1/-1;
+    padding: 20px;
+    .menuHamb{
+        background-color: #343333;
+        & li a{
+            color: #fff;
+            border-radius: 5px;
+        }
+        & li a:hover{
+            color: #1e2125;
+            background-color: #e9ecef;
+        }
+    }
+}
